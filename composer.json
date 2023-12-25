@@ -56,5 +56,15 @@
             "dev-master": "2.1.x-dev",
             "dev-pico-3.0": "3.0.x-dev"
         }
+    },
+    "config": {
+        "platform": {
+            "php": "7.2.5"
+        },
+        "platform-check": true,
+        "sort-packages": true,
+        "allow-plugins": {
+            "picocms/composer-installer": true
+        }
     }
 }
